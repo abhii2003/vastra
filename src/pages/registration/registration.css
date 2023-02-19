@@ -1,0 +1,67 @@
+#registrationpage {
+    margin-top: 16vh;
+    display: grid;
+    grid-template-columns: 33.333333333% 33.333333333% 33.333333333%;
+    grid-template-rows: 100%;
+    height: 80vh;
+}
+
+.containerreg {
+    grid-column: 2;
+    text-align: center;
+    height: 60vh;
+    border-radius: 5px;
+    border-style: double;
+    border-color: #f2f2f2;
+    margin-top: 12vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+
+
+}
+
+.register {
+    margin-top: 7vh;
+    width: 20vw;
+}
+
+.titlereg {
+    color: #f2f2f2;
+    font-family: "unna", serif;
+    font-size: 2em;
+    margin-top: 2vh;
+}
+
+.details {
+    color: #f2f2f2;
+    font-family: "unna", serif;
+
+}
+
+.text {
+    font-family: "Unna", serif;
+    border-radius: 5px;
+    border-style: double;
+    border-width: 2px;
+    border-color: aliceblue;
+    justify-self: right;
+
+}
+
+.input-box {
+    margin-top: 2vh;
+
+
+}
+
+.socialreg {
+    display: grid;
+    gap: 5px;
+    width: 95%;
+    grid-template-columns: repeat(4, 25%);
+    align-items: center;
+    text-align: center;
+    margin-top: 5vh;
+    cursor: pointer;
+
+}

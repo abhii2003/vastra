@@ -1,0 +1,17 @@
+#cartpage {
+    text-align: center;
+    height: 80vh;
+}
+
+.cartimg {
+    width: 400px;
+    height: 400px;
+    margin-left: 5vw;
+    margin-bottom: 0;
+    margin-top: 15vh;
+
+}
+
+.carttext {
+    margin-top: -13vh;
+}

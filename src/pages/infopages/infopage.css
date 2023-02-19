@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+#sec1 {
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    background: #f2f2f2;
+    height: 70vh;
+    width: 100vw;
+
+}
+
+.infoimage {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 5vh;
+    margin-left: 15vh;
+    margin-right: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 5px;
+    text-align: center;
+    height: 50vh;
+    width: 18vw;
+
+}
+
+.infoimage2 {
+    height: 50vh;
+    width: 25vw;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    border-radius: 5px;
+}
+
+.infotext {
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: 15vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    width: 80%;
+
+}
+
+#sec2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    height: 70vh;
+    width: 100vw;
+
+}
+
+.infotextsec2 {
+    align-items: center;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 4vh;
+    margin-top: 20vh;
+    margin-left: 5vh;
+}
+
+.pname {
+    text-align: right;
+    margin-right: 30vh;
+    margin-top: 0;
+}

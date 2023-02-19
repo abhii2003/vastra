@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Unna:wght@700&display=swap');
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.logo {
+  font-family: 'Unna', serif;
+  text-align: center;
+  font-size: 5vh;
+  letter-spacing: 0.5em;
+  margin-top: 1vh;
+  margin-bottom: 19px;
+  grid-column: 2;
+}
+
+.button {
+  margin-top: 7vh;
+  top: 50%;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 1px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+}
+
+.button:hover {
+  color: #ffffff;
+  background-color: #1a1a1a;
+  transition: 0.1s;
+}
+
+.button2 {
+  margin-top: 7vh;
+  top: 50%;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 1px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+}
+
+.button2:hover {
+  color: #000000;
+  background-color: #ffffff;
+  transition: 0.1s;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.accountsvg {
+  height: 30px;
+  width: 30px;
+  transform: translate(0, 10px);
+}
+
+.cartsvg {
+  height: 30px;
+  width: 30px;
+  transform: translate(0px, 10px);
+}
+
+.searchsvg {
+  height: 20px;
+  width: 20px;
+  transform: translate(15.8vw, 0.75vh);
+}
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.titletop {
+  display: grid;
+  grid-template-columns: repeat(3, 33.333333333%);
+  grid-template-rows: 70%;
+}
+
+.searchbar {
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+
+}
+
+
+.search {
+  border-radius: 1px;
+  border: none;
+  height: 20px;
+  width: 250px;
+
+
+}
+
+
+
+.search:hover {
+  border: 1px solid #d0c8c3;
+}
+
+
+#account {
+  margin-left: 15vw;
+
+}
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////
+navbar/////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.navbar>ul {
+  display: inline-block;
+  list-style-type: none;
+  background-color: azure;
+}
+
+.nav-container {
+  position: fixed;
+  display: block;
+  padding: 0px;
+  top: 0;
+  margin: 0;
+  border: 0;
+  background-color: rgba(255, 255, 255);
+  z-index: 99;
+  height: 120px;
+  width: 100vw;
+
+
+}
+
+#Home {
+  margin-left: 25.7vw;
+}
+
+nav>ul {
+  width: 100vw;
+  display: flex;
+  text-align: center;
+  gap: 50px;
+
+}
+
+nav>ul>li {
+  list-style: none;
+  font-family: "inter", sans-serif;
+  font-size: 1vw;
+  font-weight: 400;
+
+
+}
+
+
+.navText:link,
+.navText:visited {
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 0.65rem;
+}
+
+.navText:hover {
+  color: #d0c8c3;
+}
+
+.navText::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1.5px;
+  background-color: #d0c8c3;
+  bottom: -5px;
+  left: 0;
+  transform: scale(0);
+  transition: 0.2s all ease-out;
+}
+
+.navText:hover::after {
+  transform: scale(1);
+  color: #a49990;
+
+}
+
+.navlisttop>ul>li {
+  font-size: 1.6vh;
+}

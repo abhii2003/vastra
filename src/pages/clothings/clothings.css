@@ -1,0 +1,89 @@
+#clothings1,
+#clothings2 {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(2, 50%);
+
+}
+
+#clothings1 {
+    margin-top: 16vh;
+}
+
+.spandummy {
+    grid-column: 1;
+    grid-row: 1/2;
+}
+
+.sidebar {
+    height: 84vh;
+    width: 19vw;
+    z-index: 5;
+    display: grid;
+    grid-template-columns: 100%;
+    position: fixed;
+    background-color: #d0c8c3;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    backdrop-filter: blur(10px);
+}
+
+.center {
+    text-align: center;
+    font-family: 'Unna', serif;
+}
+
+.division {
+    margin-left: 4vw;
+    font-family: 'Unna', serif;
+}
+
+.card {
+    border-radius: 5px;
+    border-style: double;
+    border-color: aliceblue;
+    border-width: 2px;
+    align-items: center;
+    text-align: center;
+    width: 85%;
+    height: 90%;
+    backdrop-filter: blur(100px);
+    background-color: rgb(143, 143, 143);
+    margin-left: 8px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 80% 20%;
+}
+
+.pdtimage {
+    grid-column: 1/2;
+    grid-row: 1;
+
+}
+
+.pdtimg {
+    height: 45vh;
+    width: 16.98vw;
+    border-radius: 5px;
+    transform: translate(0, 10.5%);
+
+}
+
+.buy {
+    margin-top: 0;
+    grid-row: 2;
+    grid-column: 1;
+    z-index: 5;
+    border-radius: 3px;
+}
+
+.add {
+    grid-row: 2;
+    grid-column: 2;
+    margin-top: 0;
+    z-index: 5;
+    border-radius: 3px;
+}

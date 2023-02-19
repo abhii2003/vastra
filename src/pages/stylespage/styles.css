@@ -1,0 +1,26 @@
+#stylespage {
+    margin-top: 16vh;
+    display: grid;
+    grid-template-columns: 33.33333333% 33.33333333% 33.33333333%;
+    grid-template-rows: 100%;
+    height: 80vh;
+
+}
+
+.aug {
+    grid-column: 2;
+    text-align: center;
+    margin-top: 19vh;
+    display: grid;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.augbtn {
+    width: 10vw;
+    height: 6vh;
+    margin-left: 25vh;
+
+}
